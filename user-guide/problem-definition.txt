@@ -1,0 +1,3 @@
+/project/wyin/jlee/ml-project/inverse-shifted/data            #Location of data folder
+dos                                                           #Name of X (features)
+params                                                        #Name of y (target)

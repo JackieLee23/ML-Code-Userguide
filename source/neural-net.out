@@ -1,0 +1,30 @@
+--] running job on  node052
+Begin: Mon Sep 12 13:03:27 EDT 2022
+slurm ntasks: 12
+running 1
+running 2
+running 3
+running 4
+running 5
+running 6
+running 7
+running 8
+running 9
+running 10
+running 11
+running 12
+Waiting...
+running 13
+running 14
+running 15
+running 16
+running 17
+running 18
+running 19
+running 20
+running 21
+running 22
+running 23
+running 24
+Waiting...
+End: Mon Sep 12 13:05:20 EDT 2022

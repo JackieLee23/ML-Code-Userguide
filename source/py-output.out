@@ -1,0 +1,31 @@
+Multiprocessing is handled by SLURM.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Missing logger folder: /project/wyin/jlee/ml-project/user-guide/hyperparameters/logs/test-4/[354, 256, 140, 50, 3], 0.01, 256, 0.5
+
+  | Name         | Type       | Params
+--------------------------------------------
+0 | forward_prop | Sequential | 134 K 
+--------------------------------------------
+134 K     Trainable params
+0         Non-trainable params
+134 K     Total params
+0.536     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/wyin/.conda/envs/ML-env/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 104 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+{'layer_sizes': [354, 256, 140, 50, 3], 'learning_rate': 0.01, 'batch_size': 256, 'schedule_factor': 0.5}
+made paths
+/home/wyin/.conda/envs/ML-env/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 104 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Time limit reached. Elapsed time is 0:00:30. Signaling Trainer to stop.
+/home/wyin/.conda/envs/ML-env/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 104 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+     Validate metric           DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        val_loss          0.00012477682321332395
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+�
