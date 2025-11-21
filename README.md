@@ -11,3 +11,5 @@ This userguide in the user-guide folder has four templates:
     - Neural net evaluation: Provides template for evaluating neural net on test set
     
 The problem demonstrated in this userguide is: given input DOS, predict the corresponding t', t'' , and J. This userguide can be applied to other datasets by simply copying the userguide folder, replacing the names in the problem-definition.txt file, and retraining the ML models.  
+
+Used in: Lee, Jackson, Matthew R. Carbone, and Weiguo Yin. "Machine learning the spectral function of a hole in a quantum antiferromagnet." Physical Review B 107.20 (2023): 205132.
